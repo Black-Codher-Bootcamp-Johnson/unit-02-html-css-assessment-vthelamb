@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/handlee/v12/-F6xfjBsISg9aMakPm3wow.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/prompt/v5/-W__XJnvUD7dzB2KYNod.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+  padding-top: 80px;
+  color: yellow;
+}
+h3 {
+  font-size: xx-large;
+  padding-top: 40px;
+}
+h4 {
+    font-family:'Handlee', cursive;
+    text-align: center;
+    font-size: x-large;
+}
+.about-me{
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 11em;
+    height: 11em;
+}
+.projects{
+  font-size: 18px;
+  font-style: italic;
+}
+.social-media a:visited{
+  font-size: 20px;
+}
+.navbar a:visited {
+  font-family: 'Prompt', sans-serif;
+}
+a:visited {
+  text-decoration: none;
+  decoration: none;
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+body {
+    background: linear-gradient(#047522,#f2df2e, #0941b0);
+    font-family:'Handlee', cursive;
+}
+
+body { font-family: Helvetica; }
+
+.aligncenter {
+  text-align: center;
+}
+
+  div {
+    width: 300px;
+    margin: auto;
+  }
+  p {
+    border-top: 2px dashed;
+    border-color: black;
+    margin:0;
+    padding: 30px;
+    counter-increment: section;
+    position: relative;
+  }
+
+  p:nth-child(even):before {
+    content: counter(section);
+    right: 100%; 
+    margin-right: -20px;
+    position: absolute;
+    border-radius: 50%;
+    border-color: red;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    text-align:center;
+    color: white;
+    font-size: 100%;
+  }
+
+  p:nth-child(odd):before {
+    content: counter(section);
+    left: 100%; 
+    margin-left:-20px;
+    position: absolute;
+    border-radius: 50%;
+    border-color: black;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    text-align:center;
+    color: white;
+    font-size: 100%;
+  }
+
+  p:nth-child(even) {
+    border-left: 2px dashed;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    margin-right: 30px; 
+    padding-right: 0;
+  }
+  p:nth-child(odd) {
+    border-right: 2px dashed;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-left: 30px; 
+    padding-left: 0;
+  }
+  p:first-child {
+    border-top: 30px;  
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+  }
+  
+  p:nth-child(7) {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  
