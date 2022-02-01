@@ -17,62 +17,89 @@
 
 h1 {
   font-size: 90px;
-  text-align: center;
-  padding-top: 80px;
+  padding-left: 50px;
+  text-align: left;
+  padding-top: 120px;
   color: yellow;
 }
 h3 {
   font-size: xx-large;
   padding-top: 40px;
 }
+
+
 h4 {
-    font-family:'Handlee', cursive;
-    text-align: center;
     font-size: x-large;
+    font-family: 'Handlee';
 }
 .about-me{
     padding-top: 50px;
     font-size: 25px;
-    text-align: center;
 }
 .profile-img{
     border-radius: 50%;
-    width: 11em;
-    height: 11em;
+    width: 18em;
+    height: 18em;
 }
+
+.container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
 .projects{
   font-size: 18px;
   font-style: italic;
 }
-.social-media a:visited{
+.social-media {
   font-size: 20px;
 }
-.navbar a:visited {
-  font-family: 'Prompt', sans-serif;
-}
-a:visited {
-  text-decoration: none;
-  decoration: none;
-  color: white;
+
+.navbar a:link :hover {
   display: inline-block;
-  margin-right: 10px;
+}
+
+a {
+  color:aliceblue;
+  font-size: medium;
+  background: linear-gradient(#047522);
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color: hotpink;
+  background-color: blue;
 }
 
 body {
     background: linear-gradient(#047522,#f2df2e, #0941b0);
     font-family:'Handlee', cursive;
+    margin: 20px;
 }
 
-body { font-family: Helvetica; }
+body { 
+  font-family: Helvetica; }
 
 .aligncenter {
   text-align: center;
 }
 
-  div {
-    width: 300px;
-    margin: auto;
-  }
+.alignright {
+  text-align: right;
+}
+
+.timeline {
+  width: 300px;
+  margin: auto;
+}
+
   p {
     border-top: 2px dashed;
     border-color: black;
@@ -140,5 +167,6 @@ body { font-family: Helvetica; }
     font-size: 25px;
     text-align: center;
   }
+ 
 
-  
+
